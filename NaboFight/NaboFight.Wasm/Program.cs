@@ -1,7 +1,4 @@
-﻿using Microsoft.UI.Xaml;
-using System;
-
-namespace NaboFight.Wasm
+﻿namespace NaboFight.Wasm
 {
     public class Program
     {
