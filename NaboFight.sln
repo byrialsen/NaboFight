@@ -7,9 +7,9 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NaboFight.Shared", "NaboFig
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{0069608B-F151-4959-AC25-92C925F65635}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaboFight.Wasm", "NaboFight\NaboFight.Wasm\NaboFight.Wasm.csproj", "{570D343C-868F-4694-AE8F-4F47CA5F053E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaboFight.Wasm", "NaboFight\NaboFight.Wasm\NaboFight.Wasm.csproj", "{570D343C-868F-4694-AE8F-4F47CA5F053E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaboFight.Windows", "NaboFight\NaboFight.Windows\NaboFight.Windows.csproj", "{B1EAF014-9D31-4AAC-8AA3-DE238ABF5BD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaboFight.Windows", "NaboFight\NaboFight.Windows\NaboFight.Windows.csproj", "{B1EAF014-9D31-4AAC-8AA3-DE238ABF5BD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
