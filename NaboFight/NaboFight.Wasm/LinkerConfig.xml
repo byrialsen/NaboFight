@@ -1,11 +1,16 @@
 ﻿<linker>
-  <assembly fullname="NaboFight.Wasm" />
-  <assembly fullname="Uno.UI" />
-  <assembly fullname="Microsoft.Extensions.Options" />
-  <assembly fullname="Uno.Wasm.Bootstrap" />
+	<assembly fullname="NaboFight.Wasm" />
+	<assembly fullname="Uno.UI" />
+	<assembly fullname="Microsoft.Extensions.Options" />
+	<assembly fullname="Uno.Wasm.Bootstrap" />
+	<assembly fullname="Uno.Core" />
+	<assembly fullname="Uno.UI.RemoteControl" />
+	<assembly fullname="Uno.UI.WebAssembly" />
+	<assembly fullname="Uno.Wasm.Bootstrap.DevServer" />
 
 	<assembly fullname="System.Core">
-	<!-- This is required by JSon.NET and any expression.Compile caller -->
-	<type fullname="System.Linq.Expressions*" />
-  </assembly>
+
+		<!-- This is required by JSon.NET and any expression.Compile caller -->
+		<type fullname="System.Linq.Expressions*" />
+	</assembly>
 </linker>
