@@ -21,9 +21,9 @@ jobs:
       - name: Setup dotnet
         uses: actions/setup-dotnet@v1.7.2
         with:
-          dotnet-version: '5.0.103'
+          dotnet-version: '6.0.300'
       - run: |
-        cd demo/demo.Wasm
+        cd NaboFight/NaboFight.Wasm
         dotnet build -c Release
       - name: Build And Deploy
         id: builddeploy
@@ -34,7 +34,7 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "demo/demo.Wasm/bin/Release/net5.0/dist" # App source code path
+          app_location: "NaboFight/NaboFight.Wasm/bin/Release/net6.0/dist" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
